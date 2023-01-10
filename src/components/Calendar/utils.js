@@ -44,7 +44,7 @@ export function getDateInfo(timeStamp) {
     return [
         date.getFullYear(),
         date.getMonth() + 1,
-        date.getDate
+        date.getDate()
     ]
 }
 
